@@ -1,0 +1,15 @@
+# Build outputs
+dpi_simple
+dpi_mt
+*.o
+*.out
+
+# Generated test data
+*.pcap
+!sample_output/*.pcap
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.vscode/
+.idea/
